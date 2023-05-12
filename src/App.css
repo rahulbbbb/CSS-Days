@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+
+.container{
+  border: 8px solid black;
+  width: 30%;
+  height: 85%;
+  margin-left: 550px;
+  margin-top: 110px;
+  border-radius: 15px;
+  background-color:gainsboro
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
