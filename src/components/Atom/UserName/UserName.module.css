@@ -1,0 +1,27 @@
+
+
+.btn{
+    margin-right: -30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+.inputBox{
+    border:3px solid white;
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    padding-top: 2%;
+    text-align:center;
+}
