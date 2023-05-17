@@ -1,4 +1,6 @@
 import styles from './hero.module.css'
+import { Link } from 'react-router-dom';
+
 function Hero(){
   return(
     <div className={styles.container}>
@@ -9,7 +11,7 @@ function Hero(){
                                    <br/><br/> The Senju and Uchiha clan had been rivals for years before they came to an agreement with the help of Hashirama Senju and Madara Uchiha. 
                                    <br/><br/> The two of them built a village together and called it the Hidden Leaf Village (Konoha).</p>
                                    
-        <button className={styles.button}>Buy Now</button>
+       <Link to="/buyNow" className={styles.button}>Buy Now</Link>
     </div>
     </div>
   )
